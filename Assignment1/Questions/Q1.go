@@ -1,4 +1,4 @@
-package main // Declaring package main for specifying that the file is executable
+package Questions
 
 import "fmt"
 
@@ -24,7 +24,7 @@ func (p Person) check(NewAge int) { // Checks the condition for the age
 	}
 }
 
-func main() { // Declaring function main
+func Main1() { // Declaring function main
 	p1 := Person{Name: "Pranjali", Age: 16}
 	p1.introduction()
 	p1.update(21)

@@ -1,4 +1,4 @@
-package main
+package Questions
 
 import "fmt"
 
@@ -23,7 +23,7 @@ func (d Department) calculate_avg() float64 {
 	return average
 
 }
-func main() {
+func Main2() {
 	e1 := Employee{Name: "Pranjali", Salary: 2000.0}
 	e2 := Employee{Name: "Bajpai", Salary: 4000.0}
 	e3 := Employee{Name: "Priya", Salary: 6000.0}
@@ -40,3 +40,5 @@ func main() {
 	fmt.Println("Average Salary of Employees:", averageSalary)
 
 }
+
+//Hello
